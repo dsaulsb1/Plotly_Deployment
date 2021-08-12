@@ -1,12 +1,17 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
+  <body style="background-color:rgb(71, 224, 173);">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style>
+    select{color: rgba(172, 22, 185, 0.938);}
+    h5{color: rgb(2, 2, 87);}
+  </style>
 </head>
 
 <body>
@@ -14,7 +19,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
-        <h1>Belly Button Biodiversity Dashboard</h1>
+        <h1 style = "background-color: rgb(206, 178, 224);">Belly Button Biodiversity Dashboard</h1>
         <p>Use the interactive charts below to explore the dataset</p>
       </div>
     </div>
@@ -24,8 +29,6 @@
           <h5>Test Subject ID No.:</h5>
           <!-- <select id="selDataset"></select> -->
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
-          <!-- when a change takes place in the dropdown menu, the optionChanged() function is called -->
-          <!-- this.value returns thes the value attribute of the current dropdown menu selection -->
         </div>
         <div class="panel panel-primary">
           <div class="panel-heading">
@@ -50,8 +53,10 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="sample.js"></script>
-  <script src="static/js/charts.js"></script>
+  <!-- <script src="plots.js"></script> -->
+  <!-- <script src = "BellyButton_bar_chart_starter_code.js"></script> --> -->
+  <!-- <script src = "BellyButton_bubble_chart_starter_code.js"></script> --> --> -->
+  <script src = "charts.js"></script>
 
 </body>
 
